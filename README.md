@@ -1,8 +1,8 @@
 # Dockerization
 
 ## Day 1
-### Dockerfile
-- Example Dockerfile for simple Python
+### Example Dockerfile for simple Python
+- Dockerfile
 ```
 FROM python:3.8-alpine
 
