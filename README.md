@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6a47f13e-9436-4538-8274-66debfef1858)# Dockerization
+# Dockerization
 
 ## Day 2
 ### Example Dockerfile for simple Python
