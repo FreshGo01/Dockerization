@@ -109,7 +109,7 @@ services:
     image: poonnachitdevops/workshop007-frontend:1.0  # ดึง image จาก Docker Hub
     container_name: frontend-app  # ตั้งชื่อให้กับ container
     ports:
-      - "3000:3000"  # แมปพอร์ต 3000 ของ container ไปยังพอร์ต 3000 ของเครื่อง host
+      - "3000:80"  # แมปพอร์ต 3000 ของ container ไปยังพอร์ต 3000 ของเครื่อง host
     depends_on:
       - backend  # รัน frontend หลังจาก backend รันเสร็จ
 ```
