@@ -129,8 +129,6 @@ services:
     container_name: fastapi-backend  # ตั้งชื่อให้กับ container
     ports:
       - "8000:8000"  # แมปพอร์ต 8000 ของ container ไปยังพอร์ต 8000 ของเครื่อง host
-    environment:
-      - APP_ENV=production  # ตัวอย่างการตั้งค่า environment variable
 
   frontend:
     image: poonnachitdevops/workshop007-frontend:1.0  # ดึง image จาก Docker Hub
