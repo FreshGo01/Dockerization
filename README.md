@@ -18,6 +18,17 @@ EXPOSE 8081
 
 CMD ["python", "/python_app/main.py"]
 ```
+### Example Dockerfile for nginx
+```
+FROM nginx:alpine
+
+COPY html/ /usr/share/nginx/html/
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
+```
+
 
 ### Docker ignore for Python 
 - .dockerignore
