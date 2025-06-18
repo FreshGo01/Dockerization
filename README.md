@@ -18,6 +18,7 @@ EXPOSE 8081
 
 CMD ["python", "/python_app/main.py"]
 ```
+
 ### Example Dockerfile for nginx
 ```
 FROM nginx:alpine
@@ -29,6 +30,21 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
+### Example hello.html for nginx
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Docker</title>
+</head>
+<body>
+    <h1>Hello, Docker!</h1>
+    <p>Welcome to your Dockerized Nginx web server running with HTML.</p>
+</body>
+</html>
+```
 
 ### Docker ignore for Python 
 - .dockerignore
